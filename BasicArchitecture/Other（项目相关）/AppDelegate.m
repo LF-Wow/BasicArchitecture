@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZJTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,16 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.rootViewController = [[ZJTabBarViewController alloc] init];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

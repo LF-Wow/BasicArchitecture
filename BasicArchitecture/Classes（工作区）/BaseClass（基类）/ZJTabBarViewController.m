@@ -26,9 +26,9 @@
     ZJNavigationViewController *addressBookNaVC = [[ZJNavigationViewController alloc] initWithRootViewController:[[ZJAddressBookViewController alloc] init]];
     ZJNavigationViewController *setNaVC = [[ZJNavigationViewController alloc] initWithRootViewController:[[ZJSetViewController alloc] init]];
     
-    [self setVCWithNaviVC:homePageNaVC andTitle:nil andNormalImage:nil andselectImage:@"新闻icon2"];
-    [self setVCWithNaviVC:addressBookNaVC andTitle:@"沟通" andNormalImage:@"沟通icon" andselectImage:@"沟通icon2"];
-    [self setVCWithNaviVC:setNaVC andTitle:@"工作" andNormalImage:@"工作icon" andselectImage:@"工作icon2"];
+    [self setVCWithNaviVC:homePageNaVC andTitle:@"首页" andNormalImage:nil andselectImage:nil];
+    [self setVCWithNaviVC:addressBookNaVC andTitle:@"通讯录" andNormalImage:nil andselectImage:nil];
+    [self setVCWithNaviVC:setNaVC andTitle:@"设置" andNormalImage:nil andselectImage:nil];
     
     [self addChildViewController:homePageNaVC];
     [self addChildViewController:addressBookNaVC];
