@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		231EC6088BA436280373A985 /* libPods-BasicArchitecture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0B42C8A69B759909D756D0 /* libPods-BasicArchitecture.a */; };
-		308917F41DC44AED00531911 /* UINavigationController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 308917EF1DC44AED00531911 /* UINavigationController+ZFPlayerRotation.m */; };
-		308917F51DC44AED00531911 /* UITabBarController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 308917F11DC44AED00531911 /* UITabBarController+ZFPlayerRotation.m */; };
-		308917F61DC44AED00531911 /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 308917F31DC44AED00531911 /* UIViewController+ZFPlayerRotation.m */; };
-		308917F91DC44B5800531911 /* ZJHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308917F81DC44B5800531911 /* ZJHomePageViewController.m */; };
-		308918011DC4528900531911 /* ZJAddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308918001DC4528900531911 /* ZJAddressBookViewController.m */; };
-		308918041DC452C100531911 /* ZJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308918031DC452C100531911 /* ZJTabBarViewController.m */; };
-		308918071DC452DF00531911 /* ZJSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308918061DC452DF00531911 /* ZJSetViewController.m */; };
+		3077DD881DC37BA0004976B2 /* UINavigationController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3077DD831DC37BA0004976B2 /* UINavigationController+ZFPlayerRotation.m */; };
+		3077DD891DC37BA0004976B2 /* UITabBarController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3077DD851DC37BA0004976B2 /* UITabBarController+ZFPlayerRotation.m */; };
+		3077DD8A1DC37BA0004976B2 /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3077DD871DC37BA0004976B2 /* UIViewController+ZFPlayerRotation.m */; };
+		3077DD8D1DC37C0F004976B2 /* ZJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3077DD8C1DC37C0F004976B2 /* ZJTabBarViewController.m */; };
+		3077DD901DC37CBF004976B2 /* ZJHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3077DD8F1DC37CBF004976B2 /* ZJHomePageViewController.m */; };
 		30DF1A971DC34A44009D7C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DF1A961DC34A44009D7C53 /* Assets.xcassets */; };
 		30DF1A9A1DC34A44009D7C53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DF1A981DC34A44009D7C53 /* LaunchScreen.storyboard */; };
 		30DF1ABE1DC34CC0009D7C53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DF1AB81DC34CC0009D7C53 /* AppDelegate.m */; };
@@ -75,20 +73,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		308917EE1DC44AED00531911 /* UINavigationController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
-		308917EF1DC44AED00531911 /* UINavigationController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
-		308917F01DC44AED00531911 /* UITabBarController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
-		308917F11DC44AED00531911 /* UITabBarController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
-		308917F21DC44AED00531911 /* UIViewController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
-		308917F31DC44AED00531911 /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
-		308917F71DC44B5800531911 /* ZJHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHomePageViewController.h; sourceTree = "<group>"; };
-		308917F81DC44B5800531911 /* ZJHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHomePageViewController.m; sourceTree = "<group>"; };
-		308917FF1DC4528900531911 /* ZJAddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAddressBookViewController.h; sourceTree = "<group>"; };
-		308918001DC4528900531911 /* ZJAddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAddressBookViewController.m; sourceTree = "<group>"; };
-		308918021DC452C100531911 /* ZJTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTabBarViewController.h; sourceTree = "<group>"; };
-		308918031DC452C100531911 /* ZJTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTabBarViewController.m; sourceTree = "<group>"; };
-		308918051DC452DF00531911 /* ZJSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSetViewController.h; sourceTree = "<group>"; };
-		308918061DC452DF00531911 /* ZJSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSetViewController.m; sourceTree = "<group>"; };
+		3077DD821DC37BA0004976B2 /* UINavigationController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		3077DD831DC37BA0004976B2 /* UINavigationController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		3077DD841DC37BA0004976B2 /* UITabBarController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		3077DD851DC37BA0004976B2 /* UITabBarController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		3077DD861DC37BA0004976B2 /* UIViewController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		3077DD871DC37BA0004976B2 /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		3077DD8B1DC37C0F004976B2 /* ZJTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTabBarViewController.h; sourceTree = "<group>"; };
+		3077DD8C1DC37C0F004976B2 /* ZJTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTabBarViewController.m; sourceTree = "<group>"; };
+		3077DD8E1DC37CBF004976B2 /* ZJHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHomePageViewController.h; sourceTree = "<group>"; };
+		3077DD8F1DC37CBF004976B2 /* ZJHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHomePageViewController.m; sourceTree = "<group>"; };
 		30DF1A871DC34A44009D7C53 /* BasicArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DF1A961DC34A44009D7C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30DF1A991DC34A44009D7C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -233,66 +227,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		308917EC1DC44AEC00531911 /* Category（分类） */ = {
+		3077DD801DC37BA0004976B2 /* Category（分类） */ = {
 			isa = PBXGroup;
 			children = (
-				308917ED1DC44AEC00531911 /* Category */,
+				3077DD811DC37BA0004976B2 /* Category */,
 			);
 			path = "Category（分类）";
 			sourceTree = "<group>";
 		};
-		308917ED1DC44AEC00531911 /* Category */ = {
+		3077DD811DC37BA0004976B2 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				308917EE1DC44AED00531911 /* UINavigationController+ZFPlayerRotation.h */,
-				308917EF1DC44AED00531911 /* UINavigationController+ZFPlayerRotation.m */,
-				308917F01DC44AED00531911 /* UITabBarController+ZFPlayerRotation.h */,
-				308917F11DC44AED00531911 /* UITabBarController+ZFPlayerRotation.m */,
-				308917F21DC44AED00531911 /* UIViewController+ZFPlayerRotation.h */,
-				308917F31DC44AED00531911 /* UIViewController+ZFPlayerRotation.m */,
+				3077DD821DC37BA0004976B2 /* UINavigationController+ZFPlayerRotation.h */,
+				3077DD831DC37BA0004976B2 /* UINavigationController+ZFPlayerRotation.m */,
+				3077DD841DC37BA0004976B2 /* UITabBarController+ZFPlayerRotation.h */,
+				3077DD851DC37BA0004976B2 /* UITabBarController+ZFPlayerRotation.m */,
+				3077DD861DC37BA0004976B2 /* UIViewController+ZFPlayerRotation.h */,
+				3077DD871DC37BA0004976B2 /* UIViewController+ZFPlayerRotation.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		308917FA1DC4527200531911 /* AddressBook（通讯录） */ = {
-			isa = PBXGroup;
-			children = (
-				308917FB1DC4527200531911 /* 子模块可以根据情况修改 */,
-			);
-			path = "AddressBook（通讯录）";
-			sourceTree = "<group>";
-		};
-		308917FB1DC4527200531911 /* 子模块可以根据情况修改 */ = {
-			isa = PBXGroup;
-			children = (
-				308917FC1DC4527200531911 /* Controller */,
-				308917FD1DC4527200531911 /* Model */,
-				308917FE1DC4527200531911 /* View */,
-			);
-			path = "子模块可以根据情况修改";
-			sourceTree = "<group>";
-		};
-		308917FC1DC4527200531911 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				308917FF1DC4528900531911 /* ZJAddressBookViewController.h */,
-				308918001DC4528900531911 /* ZJAddressBookViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		308917FD1DC4527200531911 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		308917FE1DC4527200531911 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		30DF1A7E1DC34A44009D7C53 = {
@@ -317,9 +270,9 @@
 			isa = PBXGroup;
 			children = (
 				30DF1AA11DC34CC0009D7C53 /* Classes（工作区） */,
+				3077DD801DC37BA0004976B2 /* Category（分类） */,
 				30DF1AB51DC34CC0009D7C53 /* MyClass（自己封装的类） */,
 				30DF1AB61DC34CC0009D7C53 /* Other（项目相关） */,
-				308917EC1DC44AEC00531911 /* Category（分类） */,
 				30DF1ABB1DC34CC0009D7C53 /* ThirdClass（第三方类） */,
 				30DF1A961DC34A44009D7C53 /* Assets.xcassets */,
 				30DF1A981DC34A44009D7C53 /* LaunchScreen.storyboard */,
@@ -340,7 +293,6 @@
 			children = (
 				30DF1AA21DC34CC0009D7C53 /* BaseClass（基类） */,
 				30DF1AA71DC34CC0009D7C53 /* HomePage（首页） */,
-				308917FA1DC4527200531911 /* AddressBook（通讯录） */,
 				30DF1AAC1DC34CC0009D7C53 /* Login（登录） */,
 				30DF1AB01DC34CC0009D7C53 /* Set（设置） */,
 			);
@@ -350,10 +302,10 @@
 		30DF1AA21DC34CC0009D7C53 /* BaseClass（基类） */ = {
 			isa = PBXGroup;
 			children = (
-				308918021DC452C100531911 /* ZJTabBarViewController.h */,
-				308918031DC452C100531911 /* ZJTabBarViewController.m */,
 				30DF1AC11DC3506D009D7C53 /* ZJNavigationViewController.h */,
 				30DF1AC21DC3506D009D7C53 /* ZJNavigationViewController.m */,
+				3077DD8B1DC37C0F004976B2 /* ZJTabBarViewController.h */,
+				3077DD8C1DC37C0F004976B2 /* ZJTabBarViewController.m */,
 			);
 			path = "BaseClass（基类）";
 			sourceTree = "<group>";
@@ -379,8 +331,8 @@
 		30DF1AA91DC34CC0009D7C53 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				308917F71DC44B5800531911 /* ZJHomePageViewController.h */,
-				308917F81DC44B5800531911 /* ZJHomePageViewController.m */,
+				3077DD8E1DC37CBF004976B2 /* ZJHomePageViewController.h */,
+				3077DD8F1DC37CBF004976B2 /* ZJHomePageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -451,8 +403,6 @@
 		30DF1AB21DC34CC0009D7C53 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				308918051DC452DF00531911 /* ZJSetViewController.h */,
-				308918061DC452DF00531911 /* ZJSetViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -879,7 +829,6 @@
 				30DF1ADC1DC3541B009D7C53 /* AssignToObject.m in Sources */,
 				30DF1B7C1DC35425009D7C53 /* MJRefreshStateHeader.m in Sources */,
 				30DF1B711DC35425009D7C53 /* MJRefreshComponent.m in Sources */,
-				308918071DC452DF00531911 /* ZJSetViewController.m in Sources */,
 				30DF1ABE1DC34CC0009D7C53 /* AppDelegate.m in Sources */,
 				30DF1B691DC35425009D7C53 /* MASViewAttribute.m in Sources */,
 				30DF1B881DC35425009D7C53 /* SDCycleScrollView.m in Sources */,
@@ -887,9 +836,9 @@
 				30DF1B701DC35425009D7C53 /* MJRefreshBackFooter.m in Sources */,
 				30DF1B681DC35425009D7C53 /* MASLayoutConstraint.m in Sources */,
 				30DF1B6C1DC35425009D7C53 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				308917F41DC44AED00531911 /* UINavigationController+ZFPlayerRotation.m in Sources */,
+				3077DD881DC37BA0004976B2 /* UINavigationController+ZFPlayerRotation.m in Sources */,
 				30DF1B8C1DC35425009D7C53 /* SVProgressHUD.m in Sources */,
-				308917F51DC44AED00531911 /* UITabBarController+ZFPlayerRotation.m in Sources */,
+				3077DD891DC37BA0004976B2 /* UITabBarController+ZFPlayerRotation.m in Sources */,
 				30DF1B671DC35425009D7C53 /* MASConstraintMaker.m in Sources */,
 				30DF1AC31DC3506D009D7C53 /* ZJNavigationViewController.m in Sources */,
 				30DF1B941DC35425009D7C53 /* ZFPlayerControlView.m in Sources */,
@@ -900,16 +849,15 @@
 				30DF1B921DC35425009D7C53 /* ZFBrightnessView.m in Sources */,
 				30DF1B851DC35425009D7C53 /* TADotView.m in Sources */,
 				30DF1B841DC35425009D7C53 /* TAAnimatedDotView.m in Sources */,
+				3077DD901DC37CBF004976B2 /* ZJHomePageViewController.m in Sources */,
 				30DF1B6E1DC35425009D7C53 /* ViewController+MASAdditions.m in Sources */,
-				308918041DC452C100531911 /* ZJTabBarViewController.m in Sources */,
+				3077DD8D1DC37C0F004976B2 /* ZJTabBarViewController.m in Sources */,
 				30DF1B7B1DC35425009D7C53 /* MJRefreshNormalHeader.m in Sources */,
 				30DF1B7A1DC35425009D7C53 /* MJRefreshGifHeader.m in Sources */,
 				30DF1AD31DC35215009D7C53 /* NSObject+AssingeToObject.m in Sources */,
 				30DF1AD41DC35215009D7C53 /* Foundation+Log.m in Sources */,
-				308917F91DC44B5800531911 /* ZJHomePageViewController.m in Sources */,
 				30DF1B8A1DC35425009D7C53 /* SVIndefiniteAnimatedView.m in Sources */,
 				30DF1B7E1DC35425009D7C53 /* MJRefreshConst.m in Sources */,
-				308918011DC4528900531911 /* ZJAddressBookViewController.m in Sources */,
 				30DF1ADD1DC3541B009D7C53 /* GetDataBase.m in Sources */,
 				30DF1B8E1DC35425009D7C53 /* ASValueTrackingSlider.m in Sources */,
 				30DF1B861DC35425009D7C53 /* TAPageControl.m in Sources */,
@@ -917,7 +865,7 @@
 				30DF1B8D1DC35425009D7C53 /* ASValuePopUpView.m in Sources */,
 				30DF1B6B1DC35425009D7C53 /* NSArray+MASAdditions.m in Sources */,
 				30DF1B801DC35425009D7C53 /* UIScrollView+MJExtension.m in Sources */,
-				308917F61DC44AED00531911 /* UIViewController+ZFPlayerRotation.m in Sources */,
+				3077DD8A1DC37BA0004976B2 /* UIViewController+ZFPlayerRotation.m in Sources */,
 				30DF1B831DC35425009D7C53 /* TAAbstractDotView.m in Sources */,
 				30DF1B821DC35425009D7C53 /* UIView+MJExtension.m in Sources */,
 				30DF1B721DC35425009D7C53 /* MJRefreshFooter.m in Sources */,
