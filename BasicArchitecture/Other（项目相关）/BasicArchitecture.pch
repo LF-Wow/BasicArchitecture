@@ -1,0 +1,38 @@
+//
+//  BasicArchitecture.pch
+//  BasicArchitecture
+//
+//  Created by 周君 on 16/10/28.
+//  Copyright © 2016年 周君. All rights reserved.
+//
+
+#ifndef BasicArchitecture_pch
+#define BasicArchitecture_pch
+
+#ifdef __OBJC__
+
+// 配置pch： buildSetting -> prefix ->
+
+
+/* pch里面的所有内容都是共享，每个文件都会共有:
+ 作用:
+ 1.存放一些公用的宏
+ 2.存放一些公用的头文件
+ 3.自定义Log
+ */
+
+#import "ZJGlobalDefine.h"
+#import "Masonry.h"
+#import "ToolsObject.h"
+#import "MJExtension.h"
+#import "BasicArchitectureGlobalConstants.h"
+#import "NSObject+ZJ.h"
+#import "UIImage+ZJ.h"
+#import "UIButton+BasicArchitecture.h"
+#import "AFOwnerHTTPSessionManager.h"
+#import <UIImageView+WebCache.h>
+
+#endif
+
+
+#endif /* BasicArchitecture_pch */

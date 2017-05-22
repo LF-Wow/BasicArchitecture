@@ -1,0 +1,1 @@
+../../../VZInspector/VZInspector/toolbox/colorPicker/VZColorPanelView.h
