@@ -453,7 +453,7 @@ NSString * const ID = @"cycleCell";
 
 + (void)clearImagesCache
 {
-    [[[SDWebImageManager sharedManager] imageCache] clearDisk];
+    [[[SDWebImageManager sharedManager] imageCache] clearMemory];
 }
 
 #pragma mark - life circles

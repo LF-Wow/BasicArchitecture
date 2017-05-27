@@ -10,8 +10,8 @@
 
 
 /********颜色**********/
-NSInteger const themColor = 0X55a925;
-NSInteger const backGroundColor = 0XFAFAFA;
+NSInteger const themColor = 0XFB0000;
+NSInteger const backGroundColor = 0Xffffff;
 NSInteger const textColor = 0X747474;
 
 /********字体**********/

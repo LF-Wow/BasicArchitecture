@@ -1,5 +1,6 @@
 platform :ios, '8.0'
-
+# 不显示警告
+inhibit_all_warnings!
 pod 'AFNetworking', '~> 3.0'
 pod 'SDWebImage'
 pod 'FMDB'
@@ -17,6 +18,9 @@ pod ‘UMengUShare/Social/ReducedQQ'
 pod ‘UMengUShare/Social/ReducedSina'
 # 解决键盘遮挡问题
 pod 'IQKeyboardManager'
+# Masonry
+pod 'Masonry'
+
 target 'BasicArchitecture' do
 
 end

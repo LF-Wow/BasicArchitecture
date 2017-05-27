@@ -18,9 +18,10 @@ PODS:
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
   - IQKeyboardManager (4.0.9)
-  - SDWebImage (3.8.1):
-    - SDWebImage/Core (= 3.8.1)
-  - SDWebImage/Core (3.8.1)
+  - Masonry (1.0.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - TZImagePickerController (1.7.9)
   - UMengAnalytics-NO-IDFA (4.2.5)
   - UMengUShare/Core (6.4.4):
@@ -40,6 +41,7 @@ DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - FMDB
   - IQKeyboardManager
+  - Masonry
   - SDWebImage
   - TZImagePickerController
   - UMengAnalytics-NO-IDFA
@@ -53,12 +55,13 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
-  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   TZImagePickerController: 0a8ff228d287ebdd7d485e8c42a2a932894f1fba
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   UMengUShare: cd54ae52958426b79aa9193a7b02058d6a6d9aa0
   VZInspector: ea21b641b9e976d72fa74dcf8b8e8a98e1f989bc
 
-PODFILE CHECKSUM: 23a50b0bf5cda7e216291d5df64180e84901894e
+PODFILE CHECKSUM: 5d2441ed6fd1e47046cba60b40558e7b99ad3c83
 
 COCOAPODS: 1.2.1

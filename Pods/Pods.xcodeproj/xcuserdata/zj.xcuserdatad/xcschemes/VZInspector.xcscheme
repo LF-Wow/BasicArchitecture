@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C965E119785223C67E060CC9DEC39BB3'
+               BlueprintIdentifier = '231AE1B28C1192468E8EE0BB4E2D6EA9'
                BlueprintName = 'VZInspector'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libVZInspector.a'>

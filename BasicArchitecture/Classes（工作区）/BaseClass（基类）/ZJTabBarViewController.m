@@ -11,6 +11,7 @@
 #import "ZJHomePageViewController.h"
 #import "ZJAddressBookViewController.h"
 #import "ZJSetViewController.h"
+#import "ZJLoginViewController.h"
 
 @interface ZJTabBarViewController ()
 
@@ -35,8 +36,9 @@
     [self addChildViewController:setNaVC];
 
     self.selectedViewController = homePageNaVC;
-    
+
 }
+
 
 - (void)setVCWithNaviVC:(ZJNavigationViewController *)VC andTitle:(NSString *)title andNormalImage:(NSString *)normalImage andselectImage:(NSString *)selectImage
 {

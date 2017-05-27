@@ -7,6 +7,8 @@
 //
 
 #import "ZJHomePageViewController.h"
+#import "ZJNavigationViewController.h"
+#import "ZJLoginViewController.h"
 
 @interface ZJHomePageViewController ()
 
@@ -20,21 +22,18 @@
     
     self.navigationItem.title = @"首页";
     
+    [self isAutoLogin];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark -- 判断是否登录
+- (void)isAutoLogin
+{
+    if (!(ISAUTOLOGIN))
+    {
+        ZJNavigationViewController *loginNVC = [[ZJNavigationViewController alloc] initWithRootViewController:[[ZJLoginViewController alloc] init]];
+        loginNVC.navigationBar.hidden = YES;
+        [self presentViewController:loginNVC animated:YES completion:nil];
+    }
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
